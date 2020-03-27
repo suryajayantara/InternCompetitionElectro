@@ -31,10 +31,10 @@
                     <ol>
                       <li>Merupakan Mahasiswa Politeknik Negeri Bali Jurusan Teknik Elektro Semester 2
                         dan 4 dan 6.</li>
-                      <li>Tiap Team mengirim Nickname dan Nama Team.</li>
-                      <li>Setiap team terdiri dari 6 orang</li>
-                      <li>Masing-masing Team terdiri dari 6 orang (Termasuk cadangan), dimana anggotanya
-                        terdiri dari satu kelas saja.</li>
+                      <li>Tiap Team mengirim ID PUBG dan Nama Team.</li>
+                      <li>Setiap team terdiri dari 4 orang.</li>
+                      <li>Masing-masing Team terdiri dari 4 orang (Tanpa cadangan), dimana anggotanya
+                        bebas dengan syarat mahasiswa jurusan teknik elektro semester 2 dan 4</li>
                       <li>Team dilarang untuk mengganti player yang sudah terdaftar selama acara
                         berlangsung.</li>
                       <li>Peserta yang tidak mentaati peraturan akan diberikan sanksi berupa teguran
@@ -49,7 +49,7 @@
         </div>
 
         <div class="col-lg-12 order-2 mt-5">         
-          <a href="#" class="register-btn text-center"> Daftar Sekarang ! </a>
+          <a href="/pubg/register" class="register-btn text-center"> Daftar Sekarang ! </a>
       </div>
 
     </div>

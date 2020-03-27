@@ -31,14 +31,13 @@
                     <ol>
                       <li>Merupakan Mahasiswa Politeknik Negeri Bali Jurusan Teknik Elektro Semester 2
                         dan 4 dan 6.</li>
-                      <li>Tiap Team mengirim Nickname dan Nama Team.</li>
-                      <li>Setiap team terdiri dari 6 orang</li>
-                      <li>Masing-masing Team terdiri dari 6 orang (Termasuk cadangan), dimana anggotanya
-                        terdiri dari satu kelas saja.</li>
-                      <li>Team dilarang untuk mengganti player yang sudah terdaftar selama acara
-                        berlangsung.</li>
-                      <li>Peserta yang tidak mentaati peraturan akan diberikan sanksi berupa teguran
-                        pertama / langsung diskualifikasi, tergantung peraturan yang dilanggar.</li>
+                      <li>Mengisi formulir pendaftaran.</li>
+                      <li>Sifat lomba berkelompok.</li>
+                      <li>Tiap kelompok terdiri dari 2 orang (1 peserta dari semester 2 dan 1 peserta dari semester
+                        4).</li>
+                      <li>Tiap kelompok tidak diperkenankan membawa alat selain alat yang diberikan oleh
+                        panitia.</li>
+                      <li>Jumlah Peserta (7 Kelompok)</li>
                     </ol>
                 </div>
                 {{-- End List Here --}}
@@ -49,7 +48,7 @@
         </div>
 
         <div class="col-lg-12 order-2 mt-5">         
-          <a href="#" class="register-btn text-center"> Daftar Sekarang ! </a>
+          <a href="/instalasipenerangan/register" class="register-btn text-center"> Daftar Sekarang ! </a>
       </div>
 
     </div>

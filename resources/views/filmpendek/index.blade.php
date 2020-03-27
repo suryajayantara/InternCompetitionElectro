@@ -1,5 +1,5 @@
-
-@section('content')
+@extends('../master')
+@section('body')
 
 <section id="hero">
   <div id="particel.js">
@@ -30,14 +30,13 @@
                     <ol>
                       <li>Merupakan Mahasiswa Politeknik Negeri Bali Jurusan Teknik Elektro Semester 2
                         dan 4 dan 6.</li>
-                      <li>Tiap Team mengirim Nickname dan Nama Team.</li>
-                      <li>Setiap team terdiri dari 6 orang</li>
-                      <li>Masing-masing Team terdiri dari 6 orang (Termasuk cadangan), dimana anggotanya
-                        terdiri dari satu kelas saja.</li>
-                      <li>Team dilarang untuk mengganti player yang sudah terdaftar selama acara
-                        berlangsung.</li>
-                      <li>Peserta yang tidak mentaati peraturan akan diberikan sanksi berupa teguran
-                        pertama / langsung diskualifikasi, tergantung peraturan yang dilanggar.</li>
+                      <li>Sifat lomba adalah berkelompok.</li>
+                      <li>Setiap kelompok diwajibkan dari kelas yang sama dan tidak diperbolehkan dengan kelas
+                        yang berbeda.</li>
+                      <li>Tiap kelompok terdiri atas minimal 4 dan maksimal 5 orang peserta.</li>
+                      <li>Peserta harus mengisi formulir pendaftaran lengkap yang berisi semua keterangan
+                        mengenai data diri secara lengkap</li>
+                      <li>Peserta wajib mengikuti peraturan yang telah dibuat oleh panitia.</li>
                     </ol>
                 </div>
                 {{-- End List Here --}}
@@ -48,7 +47,7 @@
         </div>
 
         <div class="col-lg-12 order-2 mt-5">         
-          <a href="#" class="register-btn text-center"> Daftar Sekarang ! </a>
+          <a href="/filmpendek/register" class="register-btn text-center"> Daftar Sekarang ! </a>
       </div>
 
     </div>

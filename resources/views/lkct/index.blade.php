@@ -25,16 +25,13 @@
                 {{--  Start List Here --}}
                 <div class="rules">
                     <ol>
-                      <li>Merupakan Mahasiswa Politeknik Negeri Bali Jurusan Teknik Elektro Semester 2
-                        dan 4 dan 6.</li>
-                      <li>Tiap Team mengirim Nickname dan Nama Team.</li>
-                      <li>Setiap team terdiri dari 6 orang</li>
-                      <li>Masing-masing Team terdiri dari 6 orang (Termasuk cadangan), dimana anggotanya
-                        terdiri dari satu kelas saja.</li>
-                      <li>Team dilarang untuk mengganti player yang sudah terdaftar selama acara
-                        berlangsung.</li>
-                      <li>Peserta yang tidak mentaati peraturan akan diberikan sanksi berupa teguran
-                        pertama / langsung diskualifikasi, tergantung peraturan yang dilanggar.</li>
+                      <li>Peserta merupakan mahasiswa aktif semester 2, 4, dan 6 jurusan Teknik Elektro
+                        Politeknik Negeri Bali.</li>
+                      <li>MPerlombaan bersifat tim, dengan ketentuan 1 tim terdiri maksimal 3 pengusul
+                        yang berasal dari satu kelas yang sama pada jurusan Teknik Elektro.</li>
+                      <li>Sifat lomba berkelompok.</li>
+                      <li>Setiap satu orang peserta hanya di perkenankan tergabung 1 tim.</li>
+                      <li>Setiap tim hanya dapat mengirimkan 1 judul karya tulis.</li>
                     </ol>
                 </div>
                 {{-- End List Here --}}
@@ -45,7 +42,7 @@
         </div>
 
         <div class="col-lg-12 order-2 mt-5">         
-          <a href="#" class="register-btn text-center"> Daftar Sekarang ! </a>
+          <a href="/lkct/register" class="register-btn text-center"> Daftar Sekarang ! </a>
       </div>
 
     </div>

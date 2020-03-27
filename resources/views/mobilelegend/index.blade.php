@@ -44,7 +44,7 @@
         </div>
 
         <div class="col-lg-12 order-2 mt-5">         
-          <a href="#" class="register-btn text-center"> Daftar Sekarang ! </a>
+          <a href="/ml/register" class="register-btn text-center"> Daftar Sekarang ! </a>
       </div>
 
     </div>

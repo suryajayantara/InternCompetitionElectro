@@ -529,6 +529,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 .my-intro {
+  margin-top: 4rem;
   height: 25rem;
 }
 
