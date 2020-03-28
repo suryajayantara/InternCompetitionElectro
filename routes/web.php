@@ -46,11 +46,11 @@ Route::get('/bayar', function(){
 });
 
 
-Route::get('/dash', function () {
-    return view('dashboard/pubg');
-});
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// Dashboard View
+Route::get('/home/desainposter', 'HomeController@desainPosterView');
 

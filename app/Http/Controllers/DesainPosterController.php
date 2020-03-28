@@ -97,6 +97,7 @@ class DesainPosterController extends Controller
         unique:p_u_b_g_s,nim_2|
         unique:p_u_b_g_s,nim_3|
         unique:p_u_b_g_s,nim_4|";
+
         // Validate Data 
         $this->validate($request,[
             'nama' => "required|string|min:3|".$no_allow_nama,
@@ -159,7 +160,7 @@ class DesainPosterController extends Controller
      */
     public function edit($id)
     {
-        //
+
     }
 
     /**
@@ -183,5 +184,10 @@ class DesainPosterController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function confirm($id){
+        $data = 
+        return redirect('https://api.whatsapp.com/send?phone='. $data->no_telp= . '&text=Selamat' );
     }
 }
