@@ -59,7 +59,7 @@
     <div class="container wow fadeIn">
       <div class="section-header">
         <h3 class="section-title">Lomba</h3>
-        <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        <p class="section-description">Berikut adalah beberapa cabang lomba yang diperlombakan pada ICE Tahun ini </p>
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -72,7 +72,7 @@
         <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
           <div class="box">
             <div class="icon"><a href="/ml"><i class="fa fa-desktop"></i></a></div>
-            <h4 class="title"><a href="/ml">Mobile Legend Bang Bang</a></h4>
+            <h4 class="title"><a href="/ml">Mobile Legend </a></h4>
             <p class="description">Merupakan lomba yang bergenre MOBA dimana setiap tim harus menghancurkan base musuh satu sama lain</p>
           </div>
         </div>
@@ -121,6 +121,7 @@
       <div class="row">
         <div class="col-lg-9 text-center text-lg-left">
           <h3 class="cta-title">Ada Pertanyaan ?</h3>
+          <p class="lead"> Jika ada pertanyaan dapat ditanyakan kepada panitia melalui tombol di samping </p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
           <a class="cta-btn align-middle" data-toggle="modal" data-target="#staticBackdrop"> <i class="fa fa-whatsapp"> </i> Tanya Panitia</a>

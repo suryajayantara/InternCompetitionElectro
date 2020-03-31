@@ -3,8 +3,8 @@
     
 <main>
     <div class="container-fluid">
-        <h1 class="mt-4 display-4">Desain Poster</h1>
-        <p class="lead">Merupakan cabang lomba membuat suatu desain berupa poster dengan tujuan memberikan informasi dan mengedukasi masyarakat</p>
+        <h1 class="mt-4 display-4">Instalasi Penerangan</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab distinctio ad perspiciatis quasi vel vitae autem, fugit reiciendis fugiat praesentium beatae illo doloribus quibusdam assumenda. Perferendis ipsam magni excepturi repellendus. Quisquam magni cum necessitatibus laudantium ullam asperiores, deserunt fugiat vel suscipit, molestias dolorum aliquid consectetur rem eius sapiente exercitationem blanditiis natus quae. Molestiae quos repellendus voluptatem sapiente ab officiis eos?</p>
         <a href="#" class="btn btn-primary">Print Data</a>
     </div>
 
@@ -21,7 +21,7 @@
                                 <th scope="col" class="text-center">NIM</th>
                                 <th scope="col" class="text-center">PRODI</th>
                                 <th scope="col" class="text-center">KELAS</th>
-                                <th scope="col" class="text-center">Aksi</th>
+                                <th scope="col" class="text-center">Status Pembayaran</th>
                               </tr>
                             </thead>
                             <tbody>

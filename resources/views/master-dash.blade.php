@@ -57,12 +57,12 @@
                         <!-- Nav -->
                         <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="layout-sidenav-light.html">Desain Poster</a>
+                                <a class="nav-link" href="/home/desainposter">Desain Poster</a>
                                 <a class="nav-link" href="layout-sidenav-light.html">Film Pendek</a>
                                 <a class="nav-link" href="layout-sidenav-light.html">PLC</a>
                                 <a class="nav-link" href="layout-sidenav-light.html">LKCT</a>
                                 <a class="nav-link" href="layout-sidenav-light.html">Instalasi Penerangan</a>
-                                <a class="nav-link" href="layout-sidenav-light.html">PUBG</a>
+                                <a class="nav-link" href="/home/pubg">PUBG</a>
                                 <a class="nav-link" href="layout-sidenav-light.html">Mobile Legend</a>
                             </nav>
                         </div>

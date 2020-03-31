@@ -10,34 +10,7 @@
     <!-- Mulai Di SIni Gannnn -->
     <div class="container-fluid mt-5">
         <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                        <table class="table">
-                            <thead class="thead-dark">
-                              <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Nama</th>
-                                <th scope="col">NIM</th>
-                                <th scope="col">PRODI</th>
-                                <th scope="col">KELAS</th>
-                                <th scope="col">Status Pembayaran</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <th scope="row">1</th>
-                                <td>Simayodika</td>
-                                <td>1915323057</td>
-                                <td>Manajemen Informatika</td>
-                                <td>2 MI A</td>
-                                <td>
-                                    <a href="#" class=" btn btn-danger">Konfirmasi</a>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                </div>
-            </div>
+           
         </div>
     </div>
     </main>

@@ -449,7 +449,11 @@
 
             {{-- Sumbit --}}
             <div class="col-md-12 mt-5">
-              <input class="btn btn-outline-danger btn-lg mx-auto col-lg-12 mt-4" type="submit" value="Kirim" >
+              @if (date('d') >= 8 && date('d') <= 20 )
+                    <input class="btn btn-outline-danger btn-lg mx-auto col-lg-11 mt-4" type="submit" value="Kirim">
+              @else 
+                    <input class="btn btn-outline-danger btn-lg mx-auto col-lg-11 mt-4" type="submit" value="Belum Bisa Mendaftar :(" disabled>    
+              @endif
             </div>
         </div>
         </form>

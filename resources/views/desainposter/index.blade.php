@@ -5,9 +5,9 @@
 <section id="hero">
   <div id="particel.js">
     <div class="hero-container">
-      <h1 class="mt-5"> Desing Poster</h1>
+      <h1 class="mt-5"> Desain Poster</h1>
       <h2> Ciptakan Imajinasi melalui Rangkaian Ilustrasi</h2>
-      <a class="btn-get-started" href="/desainposter/register"> Daftar Sekarang ! </a>
+      <a class="btn-get-started" href="#about"> Daftar Sekarang ! </a>
     </div>
   </div>
 </section><!-- #hero -->

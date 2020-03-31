@@ -39,7 +39,7 @@ Route::get('/ml', 'MobileLegendController@index');
 Route::get('/ml/register', 'MobileLegendController@create');
 Route::post('/ml/register/process', 'MobileLegendController@store');
 
-Route::post('/send-wa', 'HomeController@question');
+Route::post('/send-wa', 'IndexController@question');
 
 Route::get('/bayar', function(){
     return view('pembayaran');
@@ -53,4 +53,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 // Dashboard View
 Route::get('/home/desainposter', 'HomeController@desainPosterView');
+Route::get('/home/pubg', 'HomeController@PUBGView');
+Route::get('/home/lkct', 'HomeController@LKCTView');
+Route::get('/home/plc', 'HomeController@PLCView');
+Route::get('/home/filmpendek', 'HomeController@filmPendekView');
+Route::get('/home/ml', 'HomeController@MLView');
+Route::get('/home/instalasipenerangan', 'HomeController@instalasiPeneranganView');
 

@@ -36,8 +36,10 @@ class PLCController extends Controller
     public function store(Request $request)
     {
         // Classroom Convert
+        
         $kelas1 = $request->semester_1."-".$request->prodi_1."-".$request->kelas_1;
         $kelas2 = $request->semester_2."-".$request->prodi_2."-".$request->kelas_2;
+
         // Prodi Case
         switch ($request->prodi1) {
             case 'mi':

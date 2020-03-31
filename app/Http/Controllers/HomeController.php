@@ -37,10 +37,63 @@ class HomeController extends Controller
 
     // Dashboar Page Function
 
+    // DesainPoster
     public function desainPosterView(){
         $data = DesainPoster::paginate(25);
         return view('dashboard/desainposter')->with([
-            'data' => $data
+            'datas' => $data
         ]);
     }
+
+    // PUBG 
+    public function PUBGView(){
+        $data = PUBG::paginate(2);
+        return view('dashboard/pubg')->with([
+            'datas' => $data
+        ]);
+    }
+
+    // LKCT
+    public function LKCTView(){
+        $data = LKCT::paginate(2);
+        return view('dashboard/lkct')->with([
+            'datas' => $data
+        ]);
+    }
+
+    // PLC
+    public function PLCView(){
+        $data = PLC::paginate(2);
+        return view('dashboard/plc')->with([
+            'datas' => $data
+        ]);
+    }
+
+    // Short Movie
+    public function filmPendekView(){
+        $data = FilmPendek::paginate(2);
+        return view('dashboard/filmpendek')->with([
+            'datas' => $data
+        ]);
+    }
+
+     // Mobile Legend
+    public function MLView(){
+        $data = MobileLegend::paginate(2);
+        return view('dashboard/ml')->with([
+            'datas' => $data
+        ]);
+    }
+
+    // Mobile Legend
+    public function instalasiPeneranganView(){
+       $data = InstalasiPenerangan::paginate(20);
+            return view('dashboard/instalasipenerangan')->with([
+            'datas' => $data
+        ]);
+    }
+    
+
+
+    
 }

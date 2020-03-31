@@ -37,20 +37,6 @@ class LKCTController extends Controller
      */
     public function store(Request $request)
     {
-        // CheckData 
-        $checkData1 = LKCT::where('nim_1',$request->nim1)->count();
-        if($checkData1 > 0){
-            if($checkData2 = LKCT::where('nim_2',$request->nim2)->count())
-            {
-                if($checkData2 > 0){
-                    $error = "Maaf , Data Sudah Ada";
-                    return redirect()->back()->withErrors($error);
-                }
-                $error = "Maaf , Data Sudah Ada";
-                return redirect()->back()->withErrors($error);
-            }
-        }
-
         
         // Classroom Convert
         $kelas = $request->semester."-".$request->prodi."-".$request->kelas;

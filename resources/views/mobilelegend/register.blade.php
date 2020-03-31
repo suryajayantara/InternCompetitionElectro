@@ -8,8 +8,8 @@
 <section id="hero">
     <div id="particel.js">
       <div class="hero-container">
-        <h1 class="mt-5"> Lomba Cipta Karya Teknologi  </h1>
-        <h2> Ubah Dunia Dengan Ide Cemerlangmu ! </h2>
+        <h1 class="mt-5"> Mobile Legend  </h1>
+        <h2> Rule the world with my sword  </h2>
         <a href="#about" class="btn-get-started" data-toggle="modal" data-target="#staticBackdrop"> Daftar Sekarang ! </a>
       </div>
     </div>
@@ -217,7 +217,11 @@
                               </div>
                               <hr>
                               <div class="row">
-                                <input class="btn btn-outline-danger btn-lg mx-auto col-lg-11 mt-4" type="submit" value="Kirim" >
+                                @if (date('d') >= 6 && date('d') <= 20 )
+                                <input class="btn btn-outline-danger btn-lg mx-auto col-lg-11 mt-4" type="submit" value="Kirim">
+                                 @else 
+                                <input class="btn btn-outline-danger btn-lg mx-auto col-lg-11 mt-4" type="submit" value="Belum Bisa Mendaftar :(" disabled>    
+                                @endif
                               </div>
                             </form>
                       </div>

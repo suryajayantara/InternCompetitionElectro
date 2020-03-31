@@ -186,8 +186,9 @@ class DesainPosterController extends Controller
         //
     }
 
-    public function confirm($id){
-        $data = 
-        return redirect('https://api.whatsapp.com/send?phone='. $data->no_telp= . '&text=Selamat' );
+    public function confirm(){
+        $data = DesainPoster::where('id','2');
+        echo $data->nama;
+        // return redirect('https://api.whatsapp.com/send?phone='. $data->no_telp= . '&text=Selamat' );
     }
 }

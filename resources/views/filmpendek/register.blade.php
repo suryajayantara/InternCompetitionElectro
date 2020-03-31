@@ -175,7 +175,12 @@
                               </div>
                               <hr>
                               <div class="row">
-                                <input class="btn btn-outline-danger btn-lg mx-auto col-lg-11 mt-4" type="submit" value="Kirim" >
+                                @if (date('d') >= 10 && date('d') <= 20 )
+                                    <input class="btn btn-outline-danger btn-lg mx-auto col-lg-11 mt-4" type="submit" value="Kirim">
+                                @else 
+                                    <input class="btn btn-outline-danger btn-lg mx-auto col-lg-11 mt-4" type="submit" value="Belum Bisa Mendaftar :(" disabled>    
+                                @endif
+                                
                               </div>
                             </form>
                       </div>
